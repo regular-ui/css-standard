@@ -1,0 +1,10 @@
+// Component:       `m-article`
+// ========================================================================
+
+.m-article {
+    .article_title {
+        font-weight: bold;
+    }
+
+    .article_meta {}
+}

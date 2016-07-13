@@ -1,0 +1,18 @@
+// Component:       `u-tip`
+// ========================================================================
+
+.u-tip {
+    display: inline-block;
+}
+
+
+
+// Color Extends:
+// ========================================================================
+
+$u-tip-extend_color = ($name, $background, $color) {
+    .u-tip-#{$name} {
+        background: $background;
+        color: $color;
+    }
+}

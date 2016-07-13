@@ -1,0 +1,11 @@
+@import './core.mcss';
+
+// Component:       `m-crumb`
+// ========================================================================
+
+.m-crumb {
+    > li + li:before {
+        content: '/';
+        margin: 0 8px;
+    }
+}

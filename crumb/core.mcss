@@ -1,0 +1,13 @@
+// Component:       `m-crumb`
+// ========================================================================
+
+.m-crumb {
+    @extend .f-lsn;
+    @extend .f-lsi;
+
+    > li {
+        display: inline-block;
+    }
+
+    > li + li:before {}
+}

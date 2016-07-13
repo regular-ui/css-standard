@@ -1,0 +1,12 @@
+{
+  "name": "rgui-css-standard",
+  "description": "Regular UI - Standard CSS Components",
+  "version": "0.2.0",
+  "author": "Rainfore <rainforest92@126.com>",
+  "repository": "regular-ui/css-standard",
+  "homepage": "http://regular-ui.github.io",
+  "bugs": {"url": "http://github.com/regular-ui/css-standard/issues"},
+  "license": "MIT",
+  "keywords": ["regular", "ui", "rgui", "css", "standard"],
+  "tags": ["regular", "ui", "rgui", "css", "standard"]
+}

@@ -1,0 +1,7 @@
+@import './core.mcss';
+
+// Extends:
+// ========================================================================
+
+$u-btngroup-horizontal($border-width-base);
+$u-btngroup-vertical($border-width-base);

@@ -1,0 +1,21 @@
+@import './core.mcss';
+
+// Component:       `u-tip`
+// ========================================================================
+
+.u-tip {
+    font-size: 12px;
+    padding: 0 6px;
+    background: $background-base;
+    $border-radius: $border-radius-sm;
+}
+
+
+
+// Color Extends:
+// ========================================================================
+
+$u-tip-extend_color(info, $brand-info-lighter, $brand-info);
+$u-tip-extend_color(success, $brand-success-lighter, $brand-success);
+$u-tip-extend_color(warning, $brand-warning-lighter, $brand-warning);
+$u-tip-extend_color(error, $brand-error-lighter, $brand-error);

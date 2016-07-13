@@ -1,0 +1,28 @@
+// Component:       `m-toolbar`
+// ========================================================================
+
+.m-toolbar {
+    @extend .f-lsn;
+    @extend .f-lsi;
+
+    > li {
+        display: inline-block;
+
+        > a, > span {
+            display: inline-block;
+            text-decoration: none;
+        }
+    }
+
+    > li:hover {
+        > a {}
+    }
+}
+
+.m-toolbar.z-dis {
+    > li {
+        > a {
+            cursor: not-allowed;
+        }
+    }
+}

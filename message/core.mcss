@@ -1,0 +1,33 @@
+// Component:       `u-message`
+// ========================================================================
+
+.u-message {
+    $clearfix();
+
+    .message_close {
+        float: right;
+
+        &:hover {}
+    }
+
+    .message_icon {
+        font-size: 20px;
+        vertical-align: middle;
+        margin-top: -2px;
+        line-height: 1;
+    }
+}
+
+
+
+// Color Extend:
+// Description:     颜色扩展
+// ========================================================================
+
+$u-message-extend_color = ($name, $background, $color = null, $border_ = null) {
+    .u-message-#{$name} {
+        background: $background;
+        @if($color) {color: $color;}
+        @if($border_) {$border: $border_;}
+    }
+}
