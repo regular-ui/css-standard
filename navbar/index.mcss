@@ -4,7 +4,7 @@
 // ========================================================================
 
 $m-navbar_height = 68px;
-$m-navbar_background = $brand-secondary;
+$m-navbar_background = $brand-primary;
 
 // Component:       `m-navbar`
 // ========================================================================
