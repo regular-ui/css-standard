@@ -707,6 +707,55 @@ input.u-check:disabled,input.u-radio:disabled{
 .m-list-hover li:hover{
 	background:#eee;
 }
+.m-dlist .dlist_item{
+	*zoom:1;
+}
+.m-dlist .dlist_item:before,.m-dlist .dlist_item:after{
+	display:table;
+	content:"";
+	line-height:0;
+}
+.m-dlist .dlist_item:after{
+	clear:both;
+}
+.m-dlist dt,.m-dlist .dlist_tt{
+	display:block;
+	float:left;
+	font-weight:normal;
+}
+.m-dlist dd,.m-dlist .dlist_ct{
+	display:block;
+}
+.m-dlist-inline .dlist_item{
+	display:inline-block;
+}
+.m-dlist-inline dt,.m-dlist-inline .dlist_tt{
+	float:none;
+	display:inline-block;
+}
+.m-dlist-inline dd,.m-dlist-inline .dlist_ct{
+	display:inline-block;
+}
+.m-dlist dt,.m-dlist .dlist_tt{
+	text-align:right;
+	width:100px;
+	line-height:34px;
+	color:#777;
+}
+.m-dlist dd,.m-dlist .dlist_ct{
+	margin-left:120px;
+	line-height:34px;
+}
+.m-dlist-inline .dlist_item{
+	margin-bottom:0;
+}
+.m-dlist-inline dt,.m-dlist-inline .dlist_tt{
+	width:auto;
+}
+.m-dlist-inline dd,.m-dlist-inline .dlist_ct{
+	margin-left:0;
+	margin-right:2em;
+}
 .m-table{
 	table-layout:fixed;
 	width:100%;
@@ -828,8 +877,8 @@ input.u-check:disabled,input.u-radio:disabled{
 }
 .m-form .form_label{
 	text-align:right;
-	line-height:34px;
 	width:100px;
+	line-height:34px;
 }
 .m-form .form_field{
 	margin-left:100px;
