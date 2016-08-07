@@ -1,0 +1,33 @@
+// Component:       `m-dlist`
+// ========================================================================
+
+.m-dlist {
+    .dlist_item {
+        $clearfix();
+    }
+
+    dt, .dlist_tt {
+        display: block;
+        float: left;
+        font-weight: normal;
+    }
+
+    dd, .dlist_ct {
+        display: block;
+    }
+}
+
+.m-dlist-inline {
+    .dlist_item {
+        display: inline-block;
+    }
+
+    dt, .dlist_tt {
+        float: none;
+        display: inline-block;
+    }
+
+    dd, .dlist_ct {
+        display: inline-block;
+    }
+}

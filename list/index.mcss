@@ -22,7 +22,6 @@
 
 
 // Extends:         `m-list-striped`, `m-list-hover`
-// Description:     尺寸和颜色扩展函数
 // ========================================================================
 //
 .m-list-striped {

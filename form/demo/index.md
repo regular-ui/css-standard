@@ -75,7 +75,7 @@
             <span class="form_field"><input class="u-input"></span>
         </div>
         <div class="form_item">
-            <label class="form_label">易信：</label>
+            <label class="form_label">微信：</label>
             <span class="form_field"><input class="u-input"></span>
         </div>
         <div class="form_item">

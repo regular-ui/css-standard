@@ -24,8 +24,8 @@ $m-form_label_width = 100px;
 
     .form_label {
         text-align: right;
-        line-height: $field_height;
         width: $m-form_label_width;
+        line-height: $field_height;
     }
 
     .form_field {

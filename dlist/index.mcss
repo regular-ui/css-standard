@@ -1,0 +1,38 @@
+@import './core.mcss';
+
+// Variables:
+// ========================================================================
+
+$m-dlist_tt_width = 100px;
+
+// Component:       `m-dlist`
+// ========================================================================
+
+.m-dlist {
+    dt, .dlist_tt {
+        text-align: right;
+        width: $m-dlist_tt_width;
+        line-height: $field_height;
+        color: #777;
+    }
+
+    dd, .dlist_ct {
+        margin-left: $m-dlist_tt_width + 20px;
+        line-height: $field_height;
+    }
+}
+
+.m-dlist-inline {
+    .dlist_item {
+        margin-bottom: 0;
+    }
+
+    dt, .dlist_tt {
+        width: auto;
+    }
+
+    dd, .dlist_ct {
+        margin-left: 0;
+        margin-right: 2em;
+    }
+}

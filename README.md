@@ -34,7 +34,7 @@ Regular UI - Standard CSS Components
 - 基础示例: https://regular-ui.github.io/css-standard/badge/index.html
 
 ## Tip（小帖示）
-- 基础示例: https://regular-ui.github.io/css-standard/text/index.html
+- 基础示例: https://regular-ui.github.io/css-standard/tip/index.html
 
 ## Message（消息条）
 - 基础示例: https://regular-ui.github.io/css-standard/message/index.html
@@ -62,6 +62,9 @@ Regular UI - Standard CSS Components
 
 ## List（列表）
 - 基础示例: https://regular-ui.github.io/css-standard/list/index.html
+
+## DescriptionList（描述列表）
+- 基础示例: https://regular-ui.github.io/css-standard/dlist/index.html
 
 ## Table（表格）
 - 基础示例: https://regular-ui.github.io/css-standard/table/index.html

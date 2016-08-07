@@ -13,6 +13,7 @@
 @import './article/index.mcss';
 @import './comment/index.mcss';
 @import './list/index.mcss';
+@import './dlist/index.mcss';
 @import './table/index.mcss';
 @import './panel/index.mcss';
 @import './form/index.mcss';
