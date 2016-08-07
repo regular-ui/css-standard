@@ -6,6 +6,7 @@
 .u-tip {
     font-size: 12px;
     padding: 0 6px;
+    line-height: $line-height-base;
     background: $background-base;
     $border-radius: $border-radius-sm;
 }

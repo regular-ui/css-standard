@@ -1,0 +1,76 @@
+@import "./core.mcss";
+
+// Component:       `u-input`, `u-select`, `u-textarea`
+// ========================================================================
+
+// 一般认为input和textarea的样式是差不多的。
+// u-input用于input:not([type="radio"]), input:not([type="checkbox"])
+
+.u-input,
+.u-select,
+.u-textarea {
+    // - Responsiveness: Sets a maximum width relative to the parent to scale on narrower viewports.
+    // max-width: 100%;
+    padding: $field_padding;
+    $border: $field_border;
+    color: $field_color;
+    background: $field_background;
+    $border-radius: $border-radius-base;
+
+    // -webkit-transition: all linear 0.2s;
+    // transition: all linear 0.2s;
+    $placeholder({
+        color: $field_placeholder_color;
+        // - Removes placeholder transparency in Firefox.
+        $opacity: 1;
+    });
+
+    &:focus {
+        background: $field-focus_background;
+        color: $field-focus_color;
+        $border: $field-focus_border;
+    }
+
+    &:disabled {
+        background: $field-disabled_background;
+        color: $field-disabled_color;
+        $border: $field-disabled_border;
+    }
+}
+
+.u-input, .u-select {
+    width: $field_width;
+    height: $field_height;
+}
+
+.u-textarea {
+    width: 320px;
+    height: 120px;
+}
+
+
+
+// Size Extends:
+// ========================================================================
+
+$u-field-extend_size(sm, $field-sm_padding, $field-sm_height, $field-sm_font-size);
+$u-field-extend_size(lg, $field-lg_padding, $field-lg_height, $field-lg_font-size);
+
+$u-field-extend_width(sm, 80px);
+$u-field-extend_width(lg, 200px);
+
+
+
+// Color Extends:
+// ========================================================================
+
+$u-field-extend_color(success, null, $brand-success, $brand-success);
+$u-field-extend_color(warning, null, $brand-warning, $brand-warning);
+$u-field-extend_color(error, null, $brand-error, $brand-error);
+
+
+
+// Other Extends:
+// ========================================================================
+
+$u-field-blank($border-base);

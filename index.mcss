@@ -1,9 +1,11 @@
 @import './button/index.mcss';
 @import './buttonGroup/index.mcss';
 @import './text/index.mcss';
-@import './badge/index.mcss';
-@import './message/index.mcss';
 @import './image/index.mcss';
+@import './badge/index.mcss';
+@import './tip/index.mcss';
+@import './message/index.mcss';
+@import './field/index.mcss';
 @import './navbar/index.mcss';
 @import './sidebar/index.mcss';
 @import './toolbar/index.mcss';

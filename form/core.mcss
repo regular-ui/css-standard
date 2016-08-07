@@ -17,4 +17,32 @@
         // - Correct `color` not being inherited in IE 8/9/10/11.
         border: none;
     }
+
+    .form_item {
+        $clearfix();
+    }
+
+    .form_label {
+        display: block;
+        float: left;
+    }
+
+    .form_field {
+        display: block;
+    }
+}
+
+.m-form-inline {
+    .form_item {
+        display: inline-block;
+    }
+
+    .form_label {
+        float: none;
+        display: inline-block;
+    }
+
+    .form_field {
+        display: inline-block;
+    }
 }
