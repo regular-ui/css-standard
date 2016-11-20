@@ -24,7 +24,7 @@
         <label class="form_label">验证码<span class="form_required">&#42;</span>：</label>
         <span class="form_field">
             <input class="u-input">
-            <img src="../img/verifyCode.jpg">
+            <img src="/img/verifyCode.jpg">
             <a>换一张</a>
         </span>
     </div>

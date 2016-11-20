@@ -1,7 +1,7 @@
 {
   "name": "rgui-css-standard",
   "description": "Regular UI - Standard CSS Components",
-  "version": "0.2.0",
+  "version": "0.2.0-alpha",
   "author": "Rainfore <rainforest92@126.com>",
   "repository": "regular-ui/css-standard",
   "homepage": "http://regular-ui.github.io",
